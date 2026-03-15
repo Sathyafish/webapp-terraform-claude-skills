@@ -78,6 +78,10 @@ When triggered, the skill instructs Claude to produce:
 - **No hardcoded secrets** - uses SSM Parameter Store or Secrets Manager
 - **Least-privilege IAM** - task roles scoped to only required permissions
 
+## Demo
+
+![Claude generating Terraform for a webapp using the skill](assets/claude-skill-demo.png)
+
 ## Usage
 
 Ask Claude to create Terraform for a webapp deployment. The skill activates on prompts like:
